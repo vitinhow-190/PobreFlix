@@ -57,18 +57,34 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <AndroidResource Remove="categorias\**" />
+	  <AndroidResource Remove="filmes\**" />
+	  <Compile Remove="categorias\**" />
+	  <Compile Remove="filmes\**" />
+	  <EmbeddedResource Remove="categorias\**" />
+	  <EmbeddedResource Remove="filmes\**" />
+	  <MauiCss Remove="categorias\**" />
+	  <MauiCss Remove="filmes\**" />
+	  <MauiXaml Remove="categorias\**" />
+	  <MauiXaml Remove="filmes\**" />
+	  <None Remove="categorias\**" />
+	  <None Remove="filmes\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Remove="Resources\Images\4vidasDeUmCachorro.jpg" />
+	  <None Remove="Resources\Images\AMorteDoDe.jpg" />
+	  <None Remove="Resources\Images\DSMOM.jpeg" />
+	  <None Remove="Resources\Images\IndianaJones.jpg" />
 	  <None Remove="Resources\Images\junglecruise.jpeg" />
+	  <None Remove="Resources\Images\jurassic world.jpg" />
+	  <None Remove="Resources\Images\TombRaider.jpg" />
 	</ItemGroup>
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Folder Include="filmes\" />
-	  <Folder Include="categorias\" />
 	</ItemGroup>
 
 </Project>
