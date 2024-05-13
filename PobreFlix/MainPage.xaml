@@ -23,12 +23,12 @@
         <Grid RowDefinitions="100, *, *, *, *, *" 
     ColumnDefinitions="*, *" ColumnSpacing="10" RowSpacing="10" Margin="10">
 
-            <Button Grid.Row="1" Grid.Column="0" Style="{StaticResource BotaoClaro}" x:Name="b1" Text="Aventura" Clicked="b1_Clicked" />
+            <Button Grid.Row="0" Grid.Column="1" Style="{StaticResource BotaoClaro}" x:Name="b1" Text="Aventura" Clicked="b1_Clicked" />
             <Button Grid.Row="1" Grid.Column="1" Style="{StaticResource BotaoClaro}" x:Name="b2" Text="Comédia" Clicked="b2_Clicked" />
-            <Button Grid.Row="1" Grid.Column="2" Style="{StaticResource BotaoClaro}" x:Name="b3" Text="Drama" Clicked="b3_Clicked" />
-            <Button Grid.Row="1" Grid.Column="3" Style="{StaticResource BotaoClaro}" x:Name="b4" Text="Terror" Clicked="b4_Clicked" />
-            <Button Grid.Row="1" Grid.Column="4" Style="{StaticResource BotaoClaro}" x:Name="b5" Text="Ficção Cientifica" Clicked="b5_Clicked" />
-            <Button Grid.Row="1" Grid.Column="5" Style="{StaticResource BotaoClaro}" x:Name="b6" Text="Suspense" Clicked="b6_Clicked" />
+            <Button Grid.Row="2" Grid.Column="1" Style="{StaticResource BotaoClaro}" x:Name="b3" Text="Drama" Clicked="b3_Clicked" />
+            <Button Grid.Row="3" Grid.Column="2" Style="{StaticResource BotaoClaro}" x:Name="b4" Text="Terror" Clicked="b4_Clicked" />
+            <Button Grid.Row="4" Grid.Column="2" Style="{StaticResource BotaoClaro}" x:Name="b5" Text="Ficção Cientifica" Clicked="b5_Clicked" />
+            <Button Grid.Row="5" Grid.Column="2" Style="{StaticResource BotaoClaro}" x:Name="b6" Text="Suspense" Clicked="b6_Clicked" />
 
 
 
