@@ -23,7 +23,7 @@ public partial class Aventura : ContentPage
     {
         try
         {
-            Navigation.PushAsync(new Filmes.indianajones.());
+            Navigation.PushAsync(new Filmes.indianajones());
         }
         catch (Exception ex)
         {
