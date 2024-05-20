@@ -57,34 +57,70 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <AndroidResource Remove="categorias\**" />
-	  <AndroidResource Remove="filmes\**" />
-	  <Compile Remove="categorias\**" />
-	  <Compile Remove="filmes\**" />
-	  <EmbeddedResource Remove="categorias\**" />
-	  <EmbeddedResource Remove="filmes\**" />
-	  <MauiCss Remove="categorias\**" />
-	  <MauiCss Remove="filmes\**" />
-	  <MauiXaml Remove="categorias\**" />
-	  <MauiXaml Remove="filmes\**" />
-	  <None Remove="categorias\**" />
-	  <None Remove="filmes\**" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <None Remove="Resources\Images\4vidasDeUmCachorro.jpg" />
 	  <None Remove="Resources\Images\AMorteDoDe.jpg" />
 	  <None Remove="Resources\Images\DSMOM.jpeg" />
 	  <None Remove="Resources\Images\IndianaJones.jpg" />
 	  <None Remove="Resources\Images\junglecruise.jpeg" />
-	  <None Remove="Resources\Images\jurassic world.jpg" />
+	  <None Remove="Resources\Images\jurassicworld.jpg" />
 	  <None Remove="Resources\Images\TombRaider.jpg" />
+	  <None Remove="Resources\Images\vidasdeumcachorro.jpg" />
 	</ItemGroup>
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Categorias\Animacao.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Categorias\Aventura.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Categorias\Comedia.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Categorias\Documentario.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Categorias\Drama.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Categorias\Ficcao.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Categorias\Guerra.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Categorias\Infantil.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Categorias\Nacional.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Categorias\Romance.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Categorias\Suspense.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Categorias\Terror.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\indianajones.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\junglecruise.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\jurassicworld.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\tombraider.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 </Project>
