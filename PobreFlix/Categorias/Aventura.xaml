@@ -12,7 +12,7 @@
                   Margin="10"
                   VerticalOptions="FillAndExpand"
                   Padding="5">
-                <ImageButton BackgroundColor="Black" Aspect="AspectFit" Grid.Column="0" Grid.Row="0" Source="junglecruise.jpeg" x:Name="btnjunglecruise" Clicked="btnjunglecruise_Clicked"/>
+                <ImageButton BackgroundColor="Black" Aspect="AspectFit" Grid.Column="0" Grid.Row="0" Source="junglecruise.jpeg" x:Name="junglecruise" Clicked="junglecruise_Clicked"/>
                 <ImageButton BackgroundColor="Black" Aspect="AspectFit" Grid.Column="0" Grid.Row="1" Source="indianajones.jpg" x:Name="btnindianajones" Clicked="btnindianajones_Clicked"/>
                 <ImageButton BackgroundColor="Black" Aspect="AspectFit" Grid.Column="1" Grid.Row="0" Source="tombraider.jpg" x:Name="btntombraider" Clicked="btntombraider_Clicked"/>
                 <ImageButton BackgroundColor="Black" Aspect="AspectFit" Grid.Column="1" Grid.Row="1" Source="jurassicworld.jpg" x:Name="btnjurassicworld" Clicked="btnjurassicworld_Clicked"/>

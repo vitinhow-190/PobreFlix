@@ -4,6 +4,6 @@ public partial class junglecruise : ContentPage
 {
 	public junglecruise()
 	{
-		
+		InitializeComponent();
 	}
 }

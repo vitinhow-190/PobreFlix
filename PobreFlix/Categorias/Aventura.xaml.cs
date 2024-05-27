@@ -7,7 +7,7 @@ public partial class Aventura : ContentPage
 		InitializeComponent();
 	}
 
-    private void btnjunglecruise_Clicked(object sender, EventArgs e)
+    private void junglecruise_Clicked(object sender, EventArgs e)
     {
         try
         {
