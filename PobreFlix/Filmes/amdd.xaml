@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PobreFlix.Filmes.amdd"
+             Title="amdd"
+             BackgroundColor="White">
+    <Grid RowDefinitions="*, *" ColumnDefinitions="*">
+        <WebView Grid.Row="0" Grid.Column="0"
+Source="https://www.youtube.com/embed/5n9v35xgRpw?si=KyeOEBKmCTtcZ7dl" />
+
+        <ScrollView Grid.Row="1" Grid.Column="0">
+            <Grid RowDefinitions="*, *" ColumnDefinitions="*, *" RowSpacing="10">
+                <Image Grid.Column="0" Grid.Row="0" Source="amdd.jpg" HeightRequest="300" />
+                <StackLayout VerticalOptions="CenterAndExpand" Grid.Column="1" Grid.Row="0">
+                    <Label TextColor="black" Text="Data de lançamento" Style="{StaticResource titulo}" />
+                    <Label TextColor="black" Text="20 de abril de 2023" Style="{StaticResource textoTitulo}" />
+                    <Label TextColor="black" Text="Direção" Margin="0, 20, 0, 0" Style="{StaticResource titulo}"/>
+                    <Label TextColor="black" Text=" Lee Cronin" Style="{StaticResource textoTitulo}"/>
+                </StackLayout>
+                <StackLayout Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" >
+                    <Label TextColor="black" Text="Sinopse" Style="{StaticResource titulo}"  FontSize="20"/>
+                    <Label TextColor="black" x:Name="sinopse" Text="Uma mulher se encontra em uma luta por sua vida quando um livro antigo dá à luz demônios sedentos por sangue. Eles se tornam cada vez mais agressivos em um prédio em Los Angeles." Padding="5" />
+                </StackLayout>
+            </Grid>
+        </ScrollView>
+    </Grid>
+</ContentPage>

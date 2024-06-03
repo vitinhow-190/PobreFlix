@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PobreFlix.Filmes.kiss"
+             Title="kiss"
+              BackgroundColor="White">
+    <Grid RowDefinitions="*, *" ColumnDefinitions="*">
+        <WebView Grid.Row="0" Grid.Column="0"
+Source="https://www.youtube.com/embed/92R6P_d0MKw?si=50J3fTZ4oGWFqEHd" />
+
+        <ScrollView Grid.Row="1" Grid.Column="0">
+            <Grid RowDefinitions="*, *" ColumnDefinitions="*, *" RowSpacing="10">
+                <Image Grid.Column="0" Grid.Row="0" Source="kiss.webp" HeightRequest="300" />
+                <StackLayout VerticalOptions="CenterAndExpand" Grid.Column="1" Grid.Row="0">
+                    <Label TextColor="black" Text="Data de lançamento" Style="{StaticResource titulo}" />
+                    <Label TextColor="black" Text="26 de jan. de 2023" Style="{StaticResource textoTitulo}" />
+                    <Label TextColor="black" Text="Direção" Margin="0, 20, 0, 0" Style="{StaticResource titulo}"/>
+                    <Label TextColor="black" Text="Carol Minêm" Style="{StaticResource textoTitulo}"/>
+                </StackLayout>
+                <StackLayout Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" >
+                    <Label TextColor="black" Text="Sinopse" Style="{StaticResource titulo}"  FontSize="20"/>
+                    <Label TextColor="black" x:Name="sinopse" Text="Boate Kiss - A Tragédia de Santa Maria é a série documental que acompanha a luta por justiça pelas vítimas da fatalidade que marcou a história recente da cidade e de todo o país." Padding="5" />
+                </StackLayout>
+            </Grid>
+        </ScrollView>
+    </Grid>
+</ContentPage>

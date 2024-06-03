@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PobreFlix.Filmes.estrelas"
+             Title="estrelas"
+             BackgroundColor="White">
+    <Grid RowDefinitions="*, *" ColumnDefinitions="*">
+        <WebView Grid.Row="0" Grid.Column="0"
+Source="https://www.youtube.com/embed/wx3PVtrU-Os?si=pTO7JWuXrPcgBMsX" />
+
+        <ScrollView Grid.Row="1" Grid.Column="0">
+            <Grid RowDefinitions="*, *" ColumnDefinitions="*, *" RowSpacing="10">
+                <Image Grid.Column="0" Grid.Row="0" Source="estrelasalemdotempo.jpg" HeightRequest="300" />
+                <StackLayout VerticalOptions="CenterAndExpand" Grid.Column="1" Grid.Row="0">
+                    <Label TextColor="black" Text="Data de lançamento" Style="{StaticResource titulo}" />
+                    <Label TextColor="black" Text=" 2 de fevereiro de 2017" Style="{StaticResource textoTitulo}" />
+                    <Label TextColor="black" Text="Direção" Margin="0, 20, 0, 0" Style="{StaticResource titulo}"/>
+                    <Label TextColor="black" Text=" Theodore Melfi" Style="{StaticResource textoTitulo}"/>
+                </StackLayout>
+                <StackLayout Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" >
+                    <Label TextColor="black" Text="Sinopse" Style="{StaticResource titulo}"  FontSize="20"/>
+                    <Label TextColor="black" x:Name="sinopse" Text="No auge da corrida espacial travada entre Estados Unidos e Rússia durante a Guerra Fria, uma equipe de cientistas da NASA, formada exclusivamente por mulheres afro-americanas, provou ser o elemento crucial que faltava na equação para a vitória dos Estados Unidos, liderando uma das maiores operações tecnológicas registradas na história americana e se tornando verdadeiras heroínas da nação." Padding="5" />
+                </StackLayout>
+            </Grid>
+        </ScrollView>
+    </Grid>
+
+</ContentPage>

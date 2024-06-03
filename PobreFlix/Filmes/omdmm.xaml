@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PobreFlix.Filmes.omdmm"
+             Title="omdmm"
+              BackgroundColor="White">
+    <Grid RowDefinitions="*, *" ColumnDefinitions="*">
+        <WebView Grid.Row="0" Grid.Column="0"
+Source="https://www.youtube.com/embed/R-1mZC_zgik?si=dvebUhgzZkjdHKFT" />
+
+        <ScrollView Grid.Row="1" Grid.Column="0">
+            <Grid RowDefinitions="*, *" ColumnDefinitions="*, *" RowSpacing="10">
+                <Image Grid.Column="0" Grid.Row="0" Source="omdmm.webp" HeightRequest="300" />
+                <StackLayout VerticalOptions="CenterAndExpand" Grid.Column="1" Grid.Row="0">
+                    <Label TextColor="black" Text="Data de lançamento" Style="{StaticResource titulo}" />
+                    <Label TextColor="black" Text="27 de abril de 2022" Style="{StaticResource textoTitulo}" />
+                    <Label TextColor="black" Text="Direção" Margin="0, 20, 0, 0" Style="{StaticResource titulo}"/>
+                    <Label TextColor="black" Text=" Emma Cooper" Style="{StaticResource textoTitulo}"/>
+                </StackLayout>
+                <StackLayout Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" >
+                    <Label TextColor="black" Text="Sinopse" Style="{StaticResource titulo}"  FontSize="20"/>
+                    <Label TextColor="black" x:Name="sinopse" Text="Com entrevistas inéditas aos seus mais próximos, este documentário explora o mistério em torno da morte do ícone do cinema Marilyn Monroe. Veja tudo o que quiser. Longas conversas com John Huston e a elite de Hollywood ajudam a desvendar a vida e a morte prematura de Marilyn Monroe." Padding="5" />
+                </StackLayout>
+            </Grid>
+        </ScrollView>
+    </Grid>
+</ContentPage>

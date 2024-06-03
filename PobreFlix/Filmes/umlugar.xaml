@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PobreFlix.Filmes.umlugar"
+             Title="umlugar"
+             BackgroundColor="White">
+    <Grid RowDefinitions="*, *" ColumnDefinitions="*">
+        <WebView Grid.Row="0" Grid.Column="0"
+Source="https://www.youtube.com/embed/uGtoEvEjuEk?si=FUP5aLNZ-PHjwXdz" />
+
+        <ScrollView Grid.Row="1" Grid.Column="0">
+            <Grid RowDefinitions="*, *" ColumnDefinitions="*, *" RowSpacing="10">
+                <Image Grid.Column="0" Grid.Row="0" Source="umlugar.jpg" HeightRequest="300" />
+                <StackLayout VerticalOptions="CenterAndExpand" Grid.Column="1" Grid.Row="0">
+                    <Label TextColor="black" Text="Data de lançamento" Style="{StaticResource titulo}" />
+                    <Label TextColor="black" Text="17 de junho de 2021" Style="{StaticResource textoTitulo}" />
+                    <Label TextColor="black" Text="Direção" Margin="0, 20, 0, 0" Style="{StaticResource titulo}"/>
+                    <Label TextColor="black" Text="John Krasinski" Style="{StaticResource textoTitulo}"/>
+                </StackLayout>
+                <StackLayout Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" >
+                    <Label TextColor="black" Text="Sinopse" Style="{StaticResource titulo}"  FontSize="20"/>
+                    <Label TextColor="black" x:Name="sinopse" Text="A família Abbott precisa enfrentar os terrores do mundo exterior enquanto luta pela sobrevivência em silêncio. Forçados a se aventurar no desconhecido, eles percebem que as criaturas que caçam pelo som não são as únicas ameaças no caminho da areia." Padding="5" />
+                </StackLayout>
+            </Grid>
+        </ScrollView>
+    </Grid>
+</ContentPage>

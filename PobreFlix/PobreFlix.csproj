@@ -57,11 +57,14 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\aculpaedasestrelas.jpg" />
 	  <None Remove="Resources\Images\amdd.jpg" />
 	  <None Remove="Resources\Images\Branquelas.webp" />
 	  <None Remove="Resources\Images\DoisIrmaos.webp" />
 	  <None Remove="Resources\Images\DSMOM.jpeg" />
 	  <None Remove="Resources\Images\Elementos.webp" />
+	  <None Remove="Resources\Images\estrelasAlemDoTempo.jpg" />
+	  <None Remove="Resources\Images\extraordinario.jpg" />
 	  <None Remove="Resources\Images\familiadobagulho.webp" />
 	  <None Remove="Resources\Images\FNC.jpg" />
 	  <None Remove="Resources\Images\GDB2.webp" />
@@ -69,11 +72,18 @@
 	  <None Remove="Resources\Images\IndianaJones.jpg" />
 	  <None Remove="Resources\Images\JungleCruise.jpeg" />
 	  <None Remove="Resources\Images\jurassicworld.jpg" />
+	  <None Remove="Resources\Images\kiss.webp" />
 	  <None Remove="Resources\Images\MMF3.webp" />
 	  <None Remove="Resources\Images\Norbit.jpg" />
+	  <None Remove="Resources\Images\NossoPlaneta.jpg" />
+	  <None Remove="Resources\Images\omdmm.webp" />
+	  <None Remove="Resources\Images\PP.webp" />
 	  <None Remove="Resources\Images\shrek2.jpg" />
+	  <None Remove="Resources\Images\Sorria.jpg" />
+	  <None Remove="Resources\Images\TheBlackPhone.jpg" />
 	  <None Remove="Resources\Images\TombRaider.jpg" />
 	  <None Remove="Resources\Images\Trolls3.jpg" />
+	  <None Remove="Resources\Images\umlugar.jpg" />
 	  <None Remove="Resources\Images\vidasdeumcachorro.jpg" />
 	  <None Remove="Resources\Images\vizinhos.jpg" />
 	</ItemGroup>
@@ -121,13 +131,28 @@
 	  <MauiXaml Update="Categorias\Terror.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Filmes\aculpa.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\amdd.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Filmes\branquelas.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\dog.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Filmes\doisirmaos.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Filmes\elementos.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\estrelas.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\extra.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Filmes\familia.xaml">
@@ -151,19 +176,40 @@
 	  <MauiXaml Update="Filmes\jurassicworld.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Filmes\kiss.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Filmes\mmf3.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Filmes\norbit.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Filmes\nossplaneta.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\omdmm.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\phone.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\pp.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Filmes\shrek2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\sorria.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Filmes\tombraider.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Filmes\trolls.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\umlugar.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Filmes\vizinhos.xaml">
