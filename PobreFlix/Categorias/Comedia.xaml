@@ -2,11 +2,20 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PobreFlix.Categorias.Comedia"
-             Title="Comedia">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="Comedia"
+             BackgroundColor="Black">
+    <ScrollView>
+
+        <Grid RowDefinitions="650, 600"
+         ColumnDefinitions="*, *" ColumnSpacing="10"  RowSpacing="10"
+         Margin="10"
+         VerticalOptions="FillAndExpand"
+         Padding="5">
+            <ImageButton BackgroundColor="Black" Aspect="AspectFit" Grid.Column="0" Grid.Row="0" Source="vizinhos.jpg" x:Name="vizinhos" Clicked="vizinhos_Clicked"/>
+            <ImageButton BackgroundColor="Black" Aspect="AspectFit" Grid.Column="0" Grid.Row="1" Source="branquelas.webp" x:Name="branquelas" Clicked="branquelas_Clicked"/>
+            <ImageButton BackgroundColor="Black" Aspect="AspectFit" Grid.Column="1" Grid.Row="0" Source="familiadobagulho.webp" x:Name="familia" Clicked="familia_Clicked"/>
+            <ImageButton BackgroundColor="Black" Aspect="AspectFit" Grid.Column="1" Grid.Row="1" Source="norbit.jpg" x:Name="norbit" Clicked="norbit_Clicked"/>
+        </Grid>
+
+    </ScrollView>
 </ContentPage>

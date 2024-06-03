@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PobreFlix.Filmes.junglecruise"
              Title="junglecruise"
-             BackgroundColor="White">
+             BackgroundColor="white">
     <Grid RowDefinitions="*, *" ColumnDefinitions="*">
         <WebView Grid.Row="0" Grid.Column="0"
                  Source="https://www.youtube.com/embed/f_HvoipFcA8?si=P-2K4CdEE45mzNIe" />
@@ -12,14 +12,14 @@
             <Grid RowDefinitions="*, *" ColumnDefinitions="*, *">
                 <Image Grid.Column="0" Grid.Row="0" Source="junglecruise.jpeg" HeightRequest="300" />
                 <StackLayout VerticalOptions="CenterAndExpand" Grid.Column="1" Grid.Row="0">
-                    <Label Text="Data de lançamento" Style="{StaticResource titulo}" />
-                    <Label Text="29 de julho de 2021" Style="{StaticResource textoTitulo}"/>
-                    <Label Text="Direção" Margin="0, 20, 0, 0" Style="{StaticResource titulo}"/>
-                    <Label Text="Jaume Collet-Serra" Style="{StaticResource textoTitulo}"/>
+                    <Label TextColor="black" Text="Data de lançamento" Style="{StaticResource titulo}" />
+                    <Label TextColor="black" Text="29 de julho de 2021" Style="{StaticResource textoTitulo}"/>
+                    <Label TextColor="black" Text="Direção" Margin="0, 20, 0, 0" Style="{StaticResource titulo}"/>
+                    <Label TextColor="black" Text="Jaume Collet-Serra" Style="{StaticResource textoTitulo}"/>
                 </StackLayout>
                 <StackLayout Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" >
-                    <Label Text="Sinopse" Style="{StaticResource titulo}" />
-                    <Label x:Name="sinopse" Text="A Dra. Lily Houghton pede a ajuda do sagaz capitão Frank Wolff para levá-la à Amazônia em seu barco em ruínas. Juntos, eles procuram por uma árvore ancestral que detém o poder de curar - uma descoberta que deve mudar o futuro da medicina." Padding="5" />
+                    <Label TextColor="black" Text="Sinopse" Style="{StaticResource titulo}" />
+                    <Label TextColor="black" x:Name="sinopse" Text="A Dra. Lily Houghton pede a ajuda do sagaz capitão Frank Wolff para levá-la à Amazônia em seu barco em ruínas. Juntos, eles procuram por uma árvore ancestral que detém o poder de curar - uma descoberta que deve mudar o futuro da medicina." Padding="5" />
                 </StackLayout>
             </Grid>
         </ScrollView>
