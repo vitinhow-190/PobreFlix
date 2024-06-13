@@ -62,6 +62,7 @@
 	  <None Remove="Resources\Images\Branquelas.webp" />
 	  <None Remove="Resources\Images\DoisIrmaos.webp" />
 	  <None Remove="Resources\Images\DSMOM.jpeg" />
+	  <None Remove="Resources\Images\dunkirk.png" />
 	  <None Remove="Resources\Images\Elementos.webp" />
 	  <None Remove="Resources\Images\estrelasAlemDoTempo.jpg" />
 	  <None Remove="Resources\Images\extraordinario.jpg" />
@@ -73,15 +74,18 @@
 	  <None Remove="Resources\Images\JungleCruise.jpeg" />
 	  <None Remove="Resources\Images\jurassicworld.jpg" />
 	  <None Remove="Resources\Images\kiss.webp" />
+	  <None Remove="Resources\Images\milnovessentos.jpg" />
 	  <None Remove="Resources\Images\MMF3.webp" />
 	  <None Remove="Resources\Images\Norbit.jpg" />
 	  <None Remove="Resources\Images\NossoPlaneta.jpg" />
 	  <None Remove="Resources\Images\omdmm.webp" />
 	  <None Remove="Resources\Images\PP.webp" />
+	  <None Remove="Resources\Images\sa.jpg" />
 	  <None Remove="Resources\Images\shrek2.jpg" />
 	  <None Remove="Resources\Images\Sorria.jpg" />
 	  <None Remove="Resources\Images\TheBlackPhone.jpg" />
 	  <None Remove="Resources\Images\TombRaider.jpg" />
+	  <None Remove="Resources\Images\troia.jpg" />
 	  <None Remove="Resources\Images\Trolls3.jpg" />
 	  <None Remove="Resources\Images\umlugar.jpg" />
 	  <None Remove="Resources\Images\vidasdeumcachorro.jpg" />
